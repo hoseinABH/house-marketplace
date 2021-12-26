@@ -8,7 +8,6 @@ import {
   getDocs,
   orderBy,
   where,
-  startAfter,
 } from 'firebase/firestore';
 import { db } from '../firebase.config';
 import { toast } from 'react-toastify';
